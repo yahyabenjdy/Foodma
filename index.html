@@ -25,5 +25,83 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
     />
   </head>
-  <body></body>
+  <body>
+    <!--header-->
+    <header id="header" class="header container">
+      <div class="progress">
+        <div class="filled"></div>
+      </div>
+      <div class="left">
+        <a href="#home"><h3>Foods</h3></a>
+      </div>
+      <div class="right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#ff6a3d"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="hamburger feather-menu"
+          id="hamburger"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="#ff6a3d"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="hamburger2 feather-menu"
+          id="hamburger2"
+        >
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+        <nav id="sideNav" class="sideNav">
+          <ul>
+            <!-- <a href="#home"><li class="homez active">Home</li></a> -->
+            <a href="#about"><li class="aboutz">About</li></a>
+            <a href="#menu"><li class="menuz">Menu</li></a>
+            <a href="#services"><li class="servicesz">Service</li></a>
+            <a href="#footer"><li class="pre-footerz">Contact</li></a>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!--home-->
+    <section id="home" class="home container">
+      <div class="left">
+        <div class="home-text">
+          <h1 data-text="Welcome!">Welcome!</h1>
+          <h2>You are hungry , aren't you ?</h2>
+          <a href="#menu"><button class="cmn-btn">Today's Menu</button></a>
+        </div>
+      </div>
+      <div class="right">
+        <img src="/img/home.png" alt="" />
+      </div>
+    </section>
+    <!--about-->
+    <section id="about" class="about container bazar">
+      <div class="left"><img src="/img/about.png" alt="" /></div>
+      <div class="right">
+        <h4>About Us</h4>
+        <h1>We speak the good food language</h1>
+        <p>
+          You're probably thinking what's in our food , well it contains many
+          nutrients such as Carbohydrates which primordial to the body and how
+          they fit in a healthy diet .
+        </p>
+        <a href="#services"><button class="cmn-btn">Learn More</button></a>
+      </div>
+    </section>
+  </body>
 </html>
